@@ -73,6 +73,18 @@
     <Compile Include="Version5\Penguin.cs" />
     <Compile Include="Version5\Sparrow.cs" />
     <Compile Include="Version5\Swan.cs" />
+    <Compile Include="Version6\Bird.cs" />
+    <Compile Include="Version6\BirdBeak.cs" />
+    <Compile Include="Version6\Duck.cs" />
+    <Compile Include="Version6\Eagle.cs" />
+    <Compile Include="Version6\Flyable.cs" />
+    <Compile Include="Version6\Parrot.cs" />
+    <Compile Include="Version6\Penguin.cs" />
+    <Compile Include="Version6\Sparrow.cs" />
+    <Compile Include="Version6\StrongBeak.cs" />
+    <Compile Include="Version6\Swan.cs" />
+    <Compile Include="Version6\Swimmable.cs" />
+    <Compile Include="Version6\WeekBeak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
