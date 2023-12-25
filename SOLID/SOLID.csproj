@@ -49,6 +49,7 @@
     <Compile Include="Version2\Bird.cs" />
     <Compile Include="Version2\Eagle.cs" />
     <Compile Include="Version2\Parrot.cs" />
+    <Compile Include="Version2\Penguin.cs" />
     <Compile Include="Version2\Sparrow.cs" />
   </ItemGroup>
   <ItemGroup>

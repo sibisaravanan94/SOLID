@@ -42,6 +42,7 @@ namespace SOLID.Version2
     {
         Eagle,
         sparrow,
-        parrot
+        parrot,
+        penguin
     }
 }

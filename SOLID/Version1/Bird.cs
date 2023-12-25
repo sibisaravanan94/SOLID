@@ -21,7 +21,7 @@ namespace SOLID.Version1
             // If else ladder/ switch based on type
             if(birdType == BirdType.parrot)
                 Console.WriteLine("flap !!!");
-            if (birdType == BirdType.Egle)
+            if (birdType == BirdType.Eagle)
                 Console.WriteLine("Glid !!!");
             if (birdType == BirdType.sparrow)
                 Console.WriteLine("flap !!!");
@@ -52,7 +52,7 @@ namespace SOLID.Version1
 
     internal enum BirdType
     {
-        Egle,
+        Eagle,
         sparrow,
         parrot
     }
