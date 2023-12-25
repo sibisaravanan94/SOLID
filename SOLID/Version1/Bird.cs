@@ -15,7 +15,16 @@ namespace SOLID.Version1
 
         public void fly()
         {
-            Console.WriteLine("flap !!!");
+            // violates single responsibility and open close priciples
+            // how to smell?
+            // Function should have only on eason to change
+            // If else ladder/ switch based on type
+            if(birdType == BirdType.parrot)
+                Console.WriteLine("flap !!!");
+            if (birdType == BirdType.Egle)
+                Console.WriteLine("Glid !!!");
+            if (birdType == BirdType.sparrow)
+                Console.WriteLine("flap !!!");
         }
 
         public void eat()
