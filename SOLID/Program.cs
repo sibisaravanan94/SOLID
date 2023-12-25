@@ -1,4 +1,4 @@
-﻿using SOLID.Version2;
+﻿using SOLID.Version3;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +18,8 @@ namespace SOLID
             {
                 foreach(Bird bird in birds)
                 {
-                    bird.fly();
+                    if(bird is FlyableBird)
+                        (bird as FlyableBird).fly();
                 }
             }
         }

@@ -51,6 +51,12 @@
     <Compile Include="Version2\Parrot.cs" />
     <Compile Include="Version2\Penguin.cs" />
     <Compile Include="Version2\Sparrow.cs" />
+    <Compile Include="Version3\Bird.cs" />
+    <Compile Include="Version3\Eagle.cs" />
+    <Compile Include="Version3\FlyableBird.cs" />
+    <Compile Include="Version3\Parrot.cs" />
+    <Compile Include="Version3\Penguin.cs" />
+    <Compile Include="Version3\Sparrow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
