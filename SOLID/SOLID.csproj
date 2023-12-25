@@ -46,6 +46,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Version1\Bird.cs" />
+    <Compile Include="Version2\Bird.cs" />
+    <Compile Include="Version2\Eagle.cs" />
+    <Compile Include="Version2\Parrot.cs" />
+    <Compile Include="Version2\Sparrow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
