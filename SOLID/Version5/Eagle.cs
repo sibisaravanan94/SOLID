@@ -12,5 +12,15 @@ namespace SOLID.Version5
         {
             Console.WriteLine("glid !!!");
         }
+
+        public void sing()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void swim()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
